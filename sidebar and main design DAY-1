@@ -1,0 +1,60 @@
+HTML CODE
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manish Singh - Web Developer</title>
+    <link rel="stylesheet" href="styleP.css">
+</head>
+<body>
+    <div class="navigation">
+    <div class="sidebar">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>My intro</li>
+                <li>CV</li>
+                <li>Blog</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, eveniet! Soluta quod laborum corrupti voluptas, labore ab, quisquam neque perferendis maxime non sapiente nihil! Natus autem pariatur placeat odio perspiciatis.
+</div>
+</div>
+</body>
+</html>
+
+CSS CODE
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    display:flex;
+}
+.sidebar{
+    background-color: red;
+    width:20vw;
+    height:100vh;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.sidebar nav{
+    padding:45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 35px;
+    padding:33px 0;
+}
+
+
+.main{
+    background-color: yellow;
+    width:88vw;
+    height:100vh;
+}
